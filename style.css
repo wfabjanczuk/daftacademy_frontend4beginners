@@ -165,7 +165,7 @@ h3 {
     flex-wrap: wrap;
 }
 
-.band-members__item__upper-container {
+.band-members__upper-container {
     text-align: center;
 }
 
@@ -182,12 +182,12 @@ h3 {
     justify-content: center;
 }
 
-.band-members__label--name, 
-.band-members__label--instrument {
+.band-members__name, 
+.band-members__instrument {
     margin: 0.5em;
 }
 
-.band-members__label--instrument {
+.band-members__instrument {
     letter-spacing: 3.5px;
     color: rgba(204, 200, 255, 0.5);
 }
@@ -269,7 +269,7 @@ h3 {
     color: rgba(204, 200, 255, 0.5);
 }
 
-.concerts__info__right-container {
+.concerts__right-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -313,20 +313,20 @@ iframe {
 }
 
 /* CONTACT */
-.contact-content {
+.contact {
     flex-grow: 0;
     align-self: flex-end;
     padding: 0 10%;
     align-items: center;
 }
 
-.contact-label {
+.contact__label {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.contact-label__left-container {
+.contact__left-container {
     max-width: 464px;
     flex-grow: 2;
     display: flex;
@@ -334,12 +334,12 @@ iframe {
     justify-content: center;
 }
 
-.contact-label__space-between-container {
+.contact__placeholder {
     flex-basis: 50px;
     flex-shrink: 1;
 }
 
-.contact-label__right-container {
+.contact__right-container {
     min-width: 270px;
     flex-grow: 0;
     display: flex;
@@ -348,11 +348,11 @@ iframe {
     align-content: flex-start;
 }
 
-.contact-label__photo {
+.contact__photo {
     width: 100%;
 }
 
-.contact-label__address {
+.contact__address {
     text-align: left;
     vertical-align: middle;
     font-style: normal;
@@ -363,11 +363,11 @@ iframe {
     text-align: left;
 }
 
-.form__label {
+.contact-form__label {
     line-height: 2em;
 }
 
-.form__field {
+.contact-form__field {
     color: rgba(204, 200, 255, 0.8);
     background-color: rgba(204, 200, 255, 0.1);
     border: none;
@@ -377,7 +377,7 @@ iframe {
     padding-right: 0.5em;
 }
 
-.form__submit {
+.contact-form__submit {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
 }
