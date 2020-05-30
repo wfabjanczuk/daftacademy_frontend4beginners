@@ -32,7 +32,7 @@ ul {
 
 /* BODY, HEADERS AND FONTS */
 body {
-    font-family: "Open Sans";
+    font-family: Lato, "Trebuchet MS", sans-serif;
     font-size: 13pt;
     letter-spacing: 1.5px;
     color: rgba(204, 200, 255, 0.8);
@@ -70,7 +70,7 @@ h3 {
 }
 
 .button--default {
-    font-family: "Open Sans Semibold";
+    font-family: Lato, "Trebuchet MS", sans-serif;
     letter-spacing: 1.6px;
     color: rgba(204, 200, 255, 0.8);
     background-color: rgba(204, 200, 255, 0.1);
@@ -125,7 +125,7 @@ h3 {
 }
 
 .page-menu__section:active {
-    font-family: Helvetica;
+    font-family: Helvetica, Arial, sans-serif;
     letter-spacing: 6.5px;
 }
 
